@@ -1,0 +1,6 @@
+framework module Pods_ProjectDisney {
+  umbrella header "Pods-ProjectDisney-umbrella.h"
+
+  export *
+  module * { export * }
+}
