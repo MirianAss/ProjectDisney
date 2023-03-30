@@ -13,6 +13,7 @@
 		3A78F9A829D5C05300C02C43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A78F9A629D5C05300C02C43 /* Main.storyboard */; };
 		3A78F9AA29D5C05500C02C43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A78F9A929D5C05500C02C43 /* Assets.xcassets */; };
 		3A78F9AD29D5C05500C02C43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A78F9AB29D5C05500C02C43 /* LaunchScreen.storyboard */; };
+		3A78F9B529D5C40300C02C43 /* Disney.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A78F9B429D5C40300C02C43 /* Disney.swift */; };
 		E9C1D6B7FB07AF1AA3CED1E0 /* Pods_ProjectDisney.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 099C592EFB4A6469299C43DA /* Pods_ProjectDisney.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		3A78F9A929D5C05500C02C43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A78F9AC29D5C05500C02C43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A78F9AE29D5C05500C02C43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A78F9B429D5C40300C02C43 /* Disney.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disney.swift; sourceTree = "<group>"; };
 		CCD99385EE763FA4C30CDE31 /* Pods-ProjectDisney.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectDisney.debug.xcconfig"; path = "Target Support Files/Pods-ProjectDisney/Pods-ProjectDisney.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -76,6 +78,7 @@
 				3A78F9A229D5C05300C02C43 /* SceneDelegate.swift */,
 				3A78F9A429D5C05300C02C43 /* HomeViewController.swift */,
 				3A78F9A629D5C05300C02C43 /* Main.storyboard */,
+				3A78F9B429D5C40300C02C43 /* Disney.swift */,
 				3A78F9A929D5C05500C02C43 /* Assets.xcassets */,
 				3A78F9AB29D5C05500C02C43 /* LaunchScreen.storyboard */,
 				3A78F9AE29D5C05500C02C43 /* Info.plist */,
@@ -209,6 +212,7 @@
 				3A78F9A529D5C05300C02C43 /* HomeViewController.swift in Sources */,
 				3A78F9A129D5C05300C02C43 /* AppDelegate.swift in Sources */,
 				3A78F9A329D5C05300C02C43 /* SceneDelegate.swift in Sources */,
+				3A78F9B529D5C40300C02C43 /* Disney.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
