@@ -14,7 +14,7 @@ class ListFilmsViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     
     var filmsDisney: Datum?
-    var arrayFilms: Datum?
+    var arrayFilms: [String]?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -43,13 +43,13 @@ class ListFilmsViewController: UIViewController {
 
 extension ListFilmsViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return self.arrayFilms?.films?.count ?? 0
+        return self.arrayFilms?.count ?? 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as? FilmsTableViewCell {
-            
-//            cell.setupCell(filmsCell: self.arrayFilms?[indexPath.row])
+    
+            cell.setupCell(filmsCell: self.arrayFilms?[indexPath.row])
             
             return cell
         }
