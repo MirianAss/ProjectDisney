@@ -18,6 +18,11 @@
 		3A78F9B929D61BFE00C02C43 /* ListDisneyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A78F9B829D61BFE00C02C43 /* ListDisneyViewController.swift */; };
 		3A78F9BC29D61DF400C02C43 /* DisneyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A78F9BA29D61DF400C02C43 /* DisneyTableViewCell.swift */; };
 		3A78F9BD29D61DF400C02C43 /* DisneyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A78F9BB29D61DF400C02C43 /* DisneyTableViewCell.xib */; };
+		3A78F9BF29DBB42600C02C43 /* ListFilmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A78F9BE29DBB42600C02C43 /* ListFilmsViewController.swift */; };
+		3A78F9C229DBB89B00C02C43 /* FilmsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A78F9C029DBB89B00C02C43 /* FilmsTableViewCell.swift */; };
+		3A78F9C329DBB89B00C02C43 /* FilmsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A78F9C129DBB89B00C02C43 /* FilmsTableViewCell.xib */; };
+		3A78F9C529DDBA6000C02C43 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A78F9C429DDBA6000C02C43 /* LoginViewController.swift */; };
+		3A78F9C729DDBC3100C02C43 /* RequestLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A78F9C629DDBC3100C02C43 /* RequestLogin.swift */; };
 		E9C1D6B7FB07AF1AA3CED1E0 /* Pods_ProjectDisney.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 099C592EFB4A6469299C43DA /* Pods_ProjectDisney.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +42,11 @@
 		3A78F9B829D61BFE00C02C43 /* ListDisneyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDisneyViewController.swift; sourceTree = "<group>"; };
 		3A78F9BA29D61DF400C02C43 /* DisneyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisneyTableViewCell.swift; sourceTree = "<group>"; };
 		3A78F9BB29D61DF400C02C43 /* DisneyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DisneyTableViewCell.xib; sourceTree = "<group>"; };
+		3A78F9BE29DBB42600C02C43 /* ListFilmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListFilmsViewController.swift; sourceTree = "<group>"; };
+		3A78F9C029DBB89B00C02C43 /* FilmsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmsTableViewCell.swift; sourceTree = "<group>"; };
+		3A78F9C129DBB89B00C02C43 /* FilmsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FilmsTableViewCell.xib; sourceTree = "<group>"; };
+		3A78F9C429DDBA6000C02C43 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3A78F9C629DDBC3100C02C43 /* RequestLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestLogin.swift; sourceTree = "<group>"; };
 		CCD99385EE763FA4C30CDE31 /* Pods-ProjectDisney.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectDisney.debug.xcconfig"; path = "Target Support Files/Pods-ProjectDisney/Pods-ProjectDisney.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,6 +95,11 @@
 				3A78F9A029D5C05300C02C43 /* AppDelegate.swift */,
 				3A78F9A229D5C05300C02C43 /* SceneDelegate.swift */,
 				3A78F9A629D5C05300C02C43 /* Main.storyboard */,
+				3A78F9C629DDBC3100C02C43 /* RequestLogin.swift */,
+				3A78F9C429DDBA6000C02C43 /* LoginViewController.swift */,
+				3A78F9C029DBB89B00C02C43 /* FilmsTableViewCell.swift */,
+				3A78F9C129DBB89B00C02C43 /* FilmsTableViewCell.xib */,
+				3A78F9BE29DBB42600C02C43 /* ListFilmsViewController.swift */,
 				3A78F9BA29D61DF400C02C43 /* DisneyTableViewCell.swift */,
 				3A78F9BB29D61DF400C02C43 /* DisneyTableViewCell.xib */,
 				3A78F9B829D61BFE00C02C43 /* ListDisneyViewController.swift */,
@@ -168,6 +183,7 @@
 			files = (
 				3A78F9AD29D5C05500C02C43 /* LaunchScreen.storyboard in Resources */,
 				3A78F9AA29D5C05500C02C43 /* Assets.xcassets in Resources */,
+				3A78F9C329DBB89B00C02C43 /* FilmsTableViewCell.xib in Resources */,
 				3A78F9A829D5C05300C02C43 /* Main.storyboard in Resources */,
 				3A78F9BD29D61DF400C02C43 /* DisneyTableViewCell.xib in Resources */,
 			);
@@ -227,7 +243,11 @@
 				3A78F9A129D5C05300C02C43 /* AppDelegate.swift in Sources */,
 				3A78F9BC29D61DF400C02C43 /* DisneyTableViewCell.swift in Sources */,
 				3A78F9B729D5C56E00C02C43 /* Request.swift in Sources */,
+				3A78F9C729DDBC3100C02C43 /* RequestLogin.swift in Sources */,
 				3A78F9A329D5C05300C02C43 /* SceneDelegate.swift in Sources */,
+				3A78F9BF29DBB42600C02C43 /* ListFilmsViewController.swift in Sources */,
+				3A78F9C229DBB89B00C02C43 /* FilmsTableViewCell.swift in Sources */,
+				3A78F9C529DDBA6000C02C43 /* LoginViewController.swift in Sources */,
 				3A78F9B529D5C40300C02C43 /* Disney.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
