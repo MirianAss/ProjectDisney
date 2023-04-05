@@ -21,6 +21,7 @@ class ListDisneyViewController: UIViewController {
     }
     
     func setupTableView() {
+        tableView.delegate = self
         tableView.dataSource = self
         tableView.register(UINib(nibName: "DisneyTableViewCell", bundle: nil), forCellReuseIdentifier: "cell")
     }
@@ -53,5 +54,14 @@ extension ListDisneyViewController: UITableViewDataSource {
             return cell
         }
         return UITableViewCell()
+    }
+}
+
+extension ListDisneyViewController: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if let screen = self.storyboard?.instantiateViewController(withIdentifier: "listFilms") as? ListFilmsViewController {
+            screen.filmsDisney = self.arrayDisney?.data?[indexPath.row]
+            self.navigationController?.pushViewController(screen, animated: true)
+        }
     }
 }
